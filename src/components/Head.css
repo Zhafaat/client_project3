@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    /* background-color: antiquewhite; */
+}
+
+.head-navbar {
+    width: 504px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    /* background-color:blue; */
+    /* height: 100%; */
+}
+
+.navbar-left {
+    width: 270px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-right {
+    width: 138px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #A18A68; */
+    align-items: flex-end;
+}
+
+.shoppe {
+    font-family: 'Allerta Stencil';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 40px;
+    color: #A18A68 !important; 
+
+}
+
+.link {
+    text-decoration: none;
+    color: #000000;
+}
+
+.search {
+    width: 19px;
+    height: 19px;
+    margin: 0;
+}
+
+.cart {
+    width: 21px;
+    height: 14.77px;
+    margin: 0;
+}
+
+.account {
+    width: 20px;
+    height: 20px;
+    margin: 0;
+}
