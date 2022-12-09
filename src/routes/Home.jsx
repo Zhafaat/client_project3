@@ -1,8 +1,12 @@
+import HomeTop from "../components/HomeTop"
+import HomeBottom from "../components/HomeBottom"
+import './Home.css'
 
 function Home() {
     return (
-        <div>
-            <h1>HOME</h1>
+        <div className="home">
+            <HomeTop />
+            <HomeBottom />
         </div>
     )
 }

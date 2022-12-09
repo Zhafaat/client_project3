@@ -1,0 +1,56 @@
+.homeTop {
+    width: 1248px;
+    height: 646px;
+    position: relative;
+    /* background-color: aliceblue; */
+}
+
+.homeTop-image {
+    width: 1248px;
+    height: 646px;
+}
+
+.homeTop-commercial {
+    position: absolute;
+    top: 226px;
+    left: 39px;
+    height: 195px;
+    /* width: 395px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: antiquewhite; */
+}
+
+.commercial-content {
+    height: 94px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.commercial-name {
+    width: 352px;
+    color: #fff;
+}
+
+.commercial-price {
+    width: 395px;
+    color: #fff;
+}
+
+.commercial-button {
+    width: 193px;
+    height: 53px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFF;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    background-color: transparent;
+
+}

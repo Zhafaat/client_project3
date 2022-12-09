@@ -1,0 +1,32 @@
+.productCard {
+    height: 472px;
+    width: 377px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: darkgoldenrod;
+}
+
+.product-image {
+    width: 377px;
+    height: 380px;
+    position: relative;
+}
+
+.product-image-navbar {
+    width: 139px;
+    height: 28px;
+    position: absolute;
+    top: 179px;
+    left: 119px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-content {
+    height: 68px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color:blue;
+}

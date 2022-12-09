@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import search from '../assets/search.svg'
-import cart from '../assets/cart.svg'
+import cart from '../assets/shopcart.svg'
 import account from '../assets/account.svg'
 import './Head.css'
 
