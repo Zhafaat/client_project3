@@ -4,7 +4,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
 }
 
 .homeBottom-title {
@@ -12,7 +12,13 @@
     margin: 0;
     display: flex;
     justify-content: space-between;
-    background-color:blue;
+    align-items: center;
+    /* background-color:blue; */
+}
+
+.homeBottom-link {
+    color: #a18a68;
+    text-decoration: none;
 }
 
 .homeBottom-product {
@@ -21,13 +27,13 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
 }
 
 .product-info {
     width: 1248px;
     display: flex;
     justify-content: space-between;
-    background-color: brown;
+    /* background-color: brown; */
 }
 

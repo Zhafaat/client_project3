@@ -1,26 +1,25 @@
-import earrings from '../assets/HOME02.svg'
 import cart from '../assets/shopcart.svg'
-import eye from '../assets/see.svg'
+import eye from '../assets/EYE2.svg'
 import love from '../assets/love.svg'
 import './ProductCard.css'
 
 import { Link } from 'react-router-dom'
 
-export default function ProductCard() {
+export default function ProductCard(props) {
     return (
-        <div className="productCard">
-            <div className="product-image">
-                <img src={earrings} alt="earrings" />
+        <div className="productCard" style={{height: props.heightCard}}>
+            <div className="product-image-container">
+                <img className='product-image' style={{width: props.widthImage, height: props.heightImage}} src={props.image} alt="earrings" />
                 <div className="product-image-navbar">
-                    <Link><img src={cart} alt="cart" /></Link>
-                    <Link><img src={eye} alt="eye" /></Link>
-                    <img src={love} alt="love" />
+                    <Link><img className='product-cart' src={cart} alt="cart" /></Link>
+                    <Link><img className='product-see' src={eye} alt="eye" /></Link>
+                    <img className='product-like' src={love} alt="love" />
                 </div>
-                <button>ADD TO CART</button>
+                <button className='product-button body-large' style={{width: props.widthImage}}>ADD TO CART</button>
             </div>
             <div className="product-content">
-                <p>Lira Earrings</p>
-                <p>$ 20,00</p>
+                <p className='heading-3'>Lira Earrings</p>
+                <p className='product-content-price heading-4'>$ 20,00</p>
             </div>
         </div>
     )
