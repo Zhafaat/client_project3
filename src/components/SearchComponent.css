@@ -1,0 +1,12 @@
+.search-component{
+    border-bottom: 1px solid #D8D8D8;
+    /* width: 261px;
+    height: 36px; */
+    /* background-color: aqua; */
+    
+}
+
+.search-component input {
+    border: none;
+    width: 90%;
+}
