@@ -1,0 +1,28 @@
+.productReview {
+    height: 137px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.productReview-productStars {
+    height: 55.64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.productReview-product {
+    width: 233px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+
+.productReviewText {
+    width: 580px;
+    color: #707070;
+}
+

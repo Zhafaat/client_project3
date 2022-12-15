@@ -2,12 +2,11 @@
 
 body {
   margin: 0;
-  /* display: flex; */
-  margin-inline: auto;
   max-width: 1440px;
   width: 100vw;
   min-width: 320px;
   min-height: 100vh;
+  padding: 0;
   /* background-color: aqua; */
 }
 
@@ -19,6 +18,8 @@ body {
   font-size: 33px;
   line-height: 43px;
   margin: 0;
+  /* display: flex;
+  justify-content: center; */
 
 }
 

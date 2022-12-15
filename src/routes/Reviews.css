@@ -1,0 +1,22 @@
+.reviews {
+    width: 1248px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.reviews-list {
+    height: 465px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.reviews-list-container {
+    height: 363px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}

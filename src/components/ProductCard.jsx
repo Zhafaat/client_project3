@@ -12,7 +12,7 @@ export default function ProductCard(props) {
                 <img className='product-image' style={{width: props.widthImage, height: props.heightImage}} src={props.image} alt="earrings" />
                 <div className="product-image-navbar">
                     <Link><img className='product-cart' src={cart} alt="cart" /></Link>
-                    <Link><img className='product-see' src={eye} alt="eye" /></Link>
+                    <Link to={"/product"}><img className='product-see' src={eye} alt="eye" /></Link>
                     <img className='product-like' src={love} alt="love" />
                 </div>
                 <button className='product-button body-large' style={{width: props.widthImage}}>ADD TO CART</button>

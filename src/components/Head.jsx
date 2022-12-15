@@ -10,7 +10,7 @@ function Head() {
             <p style={{margin: 0}}><Link className="shoppe link" to={'/'}>S<span style={{color: '#000'}}>HOPPE</span> </Link></p>
             <div className="head-navbar">
                 <div className="navbar-left">
-                    <Link className="link heading-5" to={'/Shop'}>Shop</Link>
+                    <Link className="link heading-5" to={'/shop'}>Shop</Link>
                     <Link className="link heading-5" >Blog</Link>
                     <Link className="link heading-5" >Our Story</Link>
                 </div>

@@ -5,7 +5,10 @@ import Blog from "./routes/Blog"
 import Shop from "./routes/Shop"
 import App from "./App"
 import Home from "./routes/Home"    
-
+import Product from "./routes/Product"
+import Description from "./routes/Description"
+import AditionalInformation from "./routes/AditionalInformation"
+import Reviews from "./routes/Reviews"
 
 const router = createBrowserRouter([
     {
@@ -17,8 +20,26 @@ const router = createBrowserRouter([
             element: <Home></Home>
         },
         {
-            path: "/Shop",
+            path: "/shop",
             element: <Shop />
+        }, 
+        {
+            path: "/product",
+            element: <Product />,
+            children: [
+              {
+                path: "/product",
+                element: <Description />
+              },
+              {
+                path: "/product/aditionalInformation",
+                element: <AditionalInformation />
+              },
+              {
+                path: "/product/reviews",
+                element: <Reviews />
+              }
+            ]
         },
         {
             path:'/blog',

@@ -1,0 +1,19 @@
+.aditionalInformation {
+    height: 138px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.aditionalInformation-container {
+    display: flex;
+}
+
+.aditionalInformationName {
+    margin-right: 16px;
+}
+
+.aditionalInformationValue {
+    color:#707070 ;
+}
