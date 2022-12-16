@@ -1,0 +1,18 @@
+.similarItem {
+    height: 472px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.similarItem-namePrice {
+    height: 68px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.similarItemImage {
+    width: 380px;
+    height: 380px;
+}
