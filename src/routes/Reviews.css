@@ -20,3 +20,96 @@
     justify-content: space-between;
 
 }
+
+.reviews-addReview {
+    height: 604px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.addReview-content {
+    height: 67px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.addReviewNotice {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 30px;
+    color: #707070;
+    margin: 0;
+}
+
+.addReview-form {
+    height: 491px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.addReview-formInput {
+    height: 389.75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.addReview-inputText {
+    height: 291px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.inputText-container {
+    height: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.inputtextStyle {
+    border: none;
+    background-color: transparent;
+    color: #707070;
+}
+
+#saveData {
+    margin-right: 8px;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #000000;
+}
+
+.inputCheckboxLabel {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #707070;
+    align-self: center;
+
+}
+
+.addReview-inputRating {
+    height: 52.64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.addReviewButton {
+    width: 123px;
+    height: 53px;
+    background: #000000;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    color: #FFFFFF;
+}
+

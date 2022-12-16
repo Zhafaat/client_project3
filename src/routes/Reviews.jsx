@@ -16,35 +16,37 @@ export default function Reviews() {
             </div>
             <div className="reviews-addReview">
                 <div className="addReview-content">
-                    <p>Add a Review</p>
-                    <p>Your email address will not be published. Required fields are marked *</p>
+                    <p className='heading-3'>Add a Review</p>
+                    <p className='addReviewNotice'>Your email address will not be published. Required fields are marked *</p>
                 </div>
-                <form action="#">
+                <form action="#" className='addReview-form'>
                     <div className="addReview-formInput">
                         <div className="addReview-inputText">
-                            <div className="inputReview-container">
-                                <input type="text" name="review" id="review" placeholder='Your Review*' />
+                            <div className="inputText-container">
+                                <input className='inputtextStyle body-medium' type="text" name="review" id="review" placeholder='Your Review*' />
                                 <hr />
                             </div>
-                            <div className="inputName-container">
-                                <input type="text" name="name" id="name" placeholder='Enter your name*' />
+                            <div className="inputText-container">
+                                <input className='inputtextStyle body-medium' type="text" name="name" id="name" placeholder='Enter your name*' />
                                 <hr />
                             </div>
-                            <div className="inputEmail-container">
-                                <input type="text" name="email" id="email" placeholder='Enter your Email*' />
+                            <div className="inputText-container">
+                                <input className='inputtextStyle body-medium' type="text" name="email" id="email" placeholder='Enter your Email*' />
                                 <hr />
                             </div>
-                            <input type="checkbox" name="saveDate" id="saveData" />
-                            <label htmlFor="saveData">Save my name, email, and website in this browser for the next time I comment</label>
+                            <div className="inputCheckbox-container" style={{display: "flex"}}>
+                                <input type="checkbox" name="saveDate" id="saveData" />
+                                <label className='inputCheckboxLabel' htmlFor="saveData">Save my name, email, and website in this browser for the next time I comment</label>
+                            </div>
 
                         </div>
                         <div className="addReview-inputRating">
-                            <p>Your Rating*</p>
+                            <p className='body-medium' style={{color: "#707070"}}>Your Rating*</p>
                             <ReviewStars />
 
                         </div>
                     </div>
-                    <button type="submit">Submit</button>
+                    <button type="submit" className='addReviewButton body-large'>Submit</button>
                 </form>
             </div>
         </div>
