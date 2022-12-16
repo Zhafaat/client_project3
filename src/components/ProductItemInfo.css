@@ -1,0 +1,203 @@
+.productItemInfo {
+    /* margin-top: 128px; */
+    margin-bottom: 96px;
+    position: relative;
+}
+
+.productItemInfo-top {
+    width: 1248px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.productItemInfo-images-container {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.productItemInfo-images {
+    width: 120px;
+    height: 120px;
+    margin: 0;
+}
+
+.productItemInfo-image {
+    width: 540px;
+    height: 600px;
+    margin: 0;
+}
+
+.productItemInfo-detail {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.productItemInfo-namePrice-container {
+    height: 84px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.productItemInfo-price {
+    color: #A18A68;
+}
+
+.productItemInfo-reviewCart-container {
+    height: 249px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.productItemInfo-review {
+    height: 147.61px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.review-starsCustomer-container {
+    width: 292px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.review-customer {
+    color: #707070;
+}
+
+.review {
+    width: 484px;
+    color: #707070;
+}
+
+.productItemInfo-cart {
+    width: 485px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+
+}
+
+.cart-inputQuantity {
+    width: 102px;
+    height: 53px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    background: #EFEFEF;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.quantityButton {
+    border: none;
+    background-color: transparent;
+    color: #707070;
+}
+
+.cartButton {
+    width: 360px;
+    height: 53px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 4px;
+}
+
+.productItemInfo-sosmedskuCategories-container {
+    height: 115px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.productItemInfo-sosmed {
+    width: 240px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.productItemInfo-like {
+    width: 19.76px;
+    height: 18px;
+    margin: 0;
+}
+
+.sosmed-container {
+    width: 142px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+
+.sosmedEmail {
+    width: 21.25px;
+    height: 16.11px;
+}
+
+.sosmedFb {
+    width: 10px;
+    height: 17.05px;
+}
+
+.sosmedIg {
+    width: 18px;
+    height: 17.05px;
+}
+
+.sosmedTwitter {
+    width: 20px;
+    height: 16.11px;
+}
+
+.productItemInfo-skuCategories {
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.sku-container {
+    display: flex;
+}
+
+.productItemInfo-skuCategories-name {
+    margin-right: 16px;
+}
+
+.productItemInfo-skuCategories-value {
+    color:#707070 ;
+}
+
+.categories-container {
+    display: flex;
+}
+
+.productItemInfo-bottom {
+    margin-top: 123px;
+
+}
+
+.productItemInfo-navbar {
+    width: 593px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 73px;
+}

@@ -1,0 +1,11 @@
+.ReviewStars {
+    width: 130px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.review-star {
+    width: 18px;
+    height: 17.25px;
+}

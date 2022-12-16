@@ -1,0 +1,12 @@
+.productSimilarItems {
+    height: 554px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.similarItems-container {
+    width: 1248px;
+    display: flex;
+    justify-content: space-between;
+}
