@@ -9,6 +9,8 @@ import Product from "./routes/Product"
 import Description from "./routes/Description"
 import AditionalInformation from "./routes/AditionalInformation"
 import Reviews from "./routes/Reviews"
+import Contact from "./routes/Contact"
+import SignIn from "./routes/SignIn"
 
 const router = createBrowserRouter([
     {
@@ -44,6 +46,16 @@ const router = createBrowserRouter([
         {
             path:'/blog',
             element: <Blog></Blog>
+        },
+        {
+          path: '/contact',
+          element: <Contact />,
+          children: [
+            {
+              path: "/contact",
+              element: <SignIn />
+            }
+          ]
         }
       ]
     },
