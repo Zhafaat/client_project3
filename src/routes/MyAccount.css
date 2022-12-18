@@ -1,0 +1,39 @@
+.myAccount {
+    /* width: 500px; */
+    margin-top: 128px;
+    margin-bottom: 250px;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.myAccount-account {
+    width: 500px;
+    height: 167px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.myAccount-account-option {
+    box-sizing: border-box;
+    width: 500px;
+    height: 60px;
+    background: #EFEFEF;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.accountOptionBox {
+    box-sizing: border-box;
+    width: 236px;
+    height: 50px;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 8px;
+}
