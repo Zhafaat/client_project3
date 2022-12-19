@@ -13,6 +13,7 @@ import MyAccount from "./routes/MyAccount"
 import SignIn from "./routes/SignIn"
 import Register from "./routes/Register"
 import Contact from "./routes/Contact"
+import ResetPassword from "./routes/ResetPassword"
 
 const router = createBrowserRouter([
     {
@@ -66,6 +67,10 @@ const router = createBrowserRouter([
         {
           path: "/contact",
           element: <Contact />
+        },
+        {
+          path: "/resetPassword",
+          element: <ResetPassword />
         }
       ]
     },

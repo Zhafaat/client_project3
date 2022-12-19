@@ -1,28 +1,29 @@
 import './SignIn.css'
+import { Link } from 'react-router-dom'
 
 export default function SignIn() {
     return (
         <div className="signIn">
-            <form action="#" className="contact-form">
-                <div className="contact-form-input">
-                    <div className="contact-form-input-container">
+            <form action="#" className="myAccount-form">
+                <div className="myAccount-form-input">
+                    <div className="myAccount-form-input-container">
                         <div className="emailPassword-container">
-                            <input className="contactFormInput heading-5" type="text" placeholder="Email"/>
-                            <hr className="contactFormInputLine" />
+                            <input className="myAccountFormInput heading-5" type="text" placeholder="Email"/>
+                            <hr className="myAccountFormInputLine" />
                         </div>
                         <div className="emailPassword-container">
-                            <input className="contactFormInput heading-5" type="text" placeholder="Password" />
-                            <hr className="contactFormInputLine" />
+                            <input className="myAccountFormInput heading-5" type="text" placeholder="Password" />
+                            <hr className="myAccountFormInputLine" />
                         </div>
                     </div>
-                    <div className="contact-form-input-checkbox">
-                        <input className="contactFormInputCheckbox" type="checkbox" name="rememberMe" id="rememberMe" />
+                    <div className="myAccount-form-input-checkbox">
+                        <input className="myAccountFormInputCheckbox" type="checkbox" name="rememberMe" id="rememberMe" />
                         <label className="heading-5" htmlFor="rememberMe">Remember me</label>
                     </div>
                 </div>
-                <div className="contact-form-button">
-                    <button className="contactFormButton body-large" type="submit">SIGN IN</button>
-                    <p className="heading-5">Have you forgotten your password?</p>
+                <div className="myAccount-form-button">
+                    <button className="myAccountFormButton body-large" type="submit">SIGN IN</button>
+                    <Link to={"/resetPassword"} className="link heading-5">Have you forgotten your password?</Link>
                 </div>
             </form>
         </div>

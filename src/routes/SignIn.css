@@ -2,21 +2,21 @@
     margin-top: 126px;
 }
 
-.contact-form {
+.myAccount-form {
     height: 322px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.contact-form-input {
+.myAccount-form-input {
     height: 166px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.contact-form-input-container {
+.myAccount-form-input-container {
     height: 124px;
     display: flex;
     flex-direction: column;
@@ -30,24 +30,24 @@
     justify-content: space-between;
 }
 
-.contactFormInput {
+.myAccountFormInput {
     color: #707070;
     border: none;
     background-color: transparent;
 }
 
-.contactFormInputLine {
+.myAccountFormInputLine {
     width: 500px;
     background-color: #D8D8D8;
     margin: 0;
 }
 
-.contact-form-input-checkbox {
+.myAccount-form-input-checkbox {
     display: flex;
     align-items: center;
 }
 
-.contactFormInputCheckbox {
+.myAccountFormInputCheckbox {
     margin-right: 8px;
     width: 16px;
     height: 17.17px;
@@ -55,7 +55,7 @@
     border-radius: 2px;
 }
 
-.contact-form-button {
+.myAccount-form-button {
     height: 93px;
     display: flex;
     flex-direction: column;
@@ -63,7 +63,7 @@
     align-items: center;
 }
 
-.contactFormButton {
+.myAccountFormButton {
     box-sizing: border-box;
     width: 500px;
     height: 53px;
