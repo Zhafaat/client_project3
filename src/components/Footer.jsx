@@ -12,7 +12,7 @@ function Footer() {
             <div className="footer-bottom">
                 <div className="bottom-left">
                     <div className="bottom-left-top">
-                          <Link className='link-footer heading-5'>CONTACT</Link>
+                          <Link to={"/contact"} className='link-footer heading-5'>CONTACT</Link>
                           <Link className='link-footer heading-5'>TERMS OF SERVICES</Link>
                           <Link className='link-footer heading-5'>SHIPPING AND RETURNS</Link>
                     </div>

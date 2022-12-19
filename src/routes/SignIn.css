@@ -1,0 +1,75 @@
+.signIn {
+    margin-top: 126px;
+}
+
+.contact-form {
+    height: 322px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contact-form-input {
+    height: 166px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contact-form-input-container {
+    height: 124px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.emailPassword-container {
+    height: 39px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contactFormInput {
+    color: #707070;
+    border: none;
+    background-color: transparent;
+}
+
+.contactFormInputLine {
+    width: 500px;
+    background-color: #D8D8D8;
+    margin: 0;
+}
+
+.contact-form-input-checkbox {
+    display: flex;
+    align-items: center;
+}
+
+.contactFormInputCheckbox {
+    margin-right: 8px;
+    width: 16px;
+    height: 17.17px;
+    border: 1px solid #707070;
+    border-radius: 2px;
+}
+
+.contact-form-button {
+    height: 93px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contactFormButton {
+    box-sizing: border-box;
+    width: 500px;
+    height: 53px;
+    background: #000000;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    color: #FFFFFF;
+}
+

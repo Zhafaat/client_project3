@@ -9,6 +9,10 @@ import Product from "./routes/Product"
 import Description from "./routes/Description"
 import AditionalInformation from "./routes/AditionalInformation"
 import Reviews from "./routes/Reviews"
+import MyAccount from "./routes/MyAccount"
+import SignIn from "./routes/SignIn"
+import Register from "./routes/Register"
+import Contact from "./routes/Contact"
 
 const router = createBrowserRouter([
     {
@@ -44,6 +48,24 @@ const router = createBrowserRouter([
         {
             path:'/blog',
             element: <Blog></Blog>
+        },
+        {
+          path: '/myAccount',
+          element: <MyAccount />,
+          children: [
+            {
+              path: "/myAccount",
+              element: <SignIn />
+            },
+            {
+              path: "/myAccount/register",
+              element: <Register />
+            }
+          ]
+        },
+        {
+          path: "/contact",
+          element: <Contact />
         }
       ]
     },
