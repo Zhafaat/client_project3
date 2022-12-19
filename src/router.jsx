@@ -73,11 +73,7 @@ const router = createBrowserRouter([
           element: <ResetPassword />
         }
       ]
-    },
-    // {
-    //     path: "/Shop",
-    //     element: <Shop />
-    // }
+    }
   ])
 
   export default router
