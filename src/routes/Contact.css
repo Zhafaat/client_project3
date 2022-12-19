@@ -1,0 +1,91 @@
+.contact {
+    height: 760px;
+    margin-top: 125px;
+    margin-bottom: 253px;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-head {
+    height: 134px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-form {
+    height: 518px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-form-input {
+    height: 369px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form-input-personalInformation {
+    height: 172px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form-input-personalInformation-container {
+    width: 908px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-container {
+    height: 39px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form-input-message {
+    height: 71px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contactFormButton {
+    width: 500px;
+    height: 53px;
+    background: #000000;
+    border-radius: 4px;
+    color: white;
+}
+
+.contactFormInput {
+    margin: 0;
+    border: none;
+    background-color: transparent;
+    color: #707070;
+}
+
+.contactFormInputLine {
+    width: 396px;
+    color: #D8D8D8;
+    margin: 0;
+}
+
+.formInputMassageLine {
+    width: 908px;
+    color: #D8D8D8;
+    margin: 0;
+}
+
+
+
+

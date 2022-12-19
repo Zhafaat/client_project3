@@ -12,6 +12,7 @@ import Reviews from "./routes/Reviews"
 import MyAccount from "./routes/MyAccount"
 import SignIn from "./routes/SignIn"
 import Register from "./routes/Register"
+import Contact from "./routes/Contact"
 
 const router = createBrowserRouter([
     {
@@ -61,6 +62,10 @@ const router = createBrowserRouter([
               element: <Register />
             }
           ]
+        },
+        {
+          path: "/contact",
+          element: <Contact />
         }
       ]
     },
