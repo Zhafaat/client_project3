@@ -1,0 +1,39 @@
+.blogCard {
+    height: 488px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.blogCard-image-container {
+    height: 344px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.blogCardImage {
+    width: 450px;
+    height: 300px;
+    margin: 0;
+}
+
+.blogCard-content-container {
+    height: 139px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.blogCard-content {
+    height: 94px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.blogCardText {
+    width: 450px;
+    color: #707070;
+}
