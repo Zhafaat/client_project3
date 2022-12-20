@@ -1,0 +1,38 @@
+.blogSingleNews {
+    height: 1365px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.blogSingleNews-head {
+    height: 86px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blogSingleNews-body {
+    height: 1240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blogSingleNewsFastImage {
+    width: 1248px;
+    height: 646px;
+    margin: 0;
+}
+
+.blogSingleNewsText {
+    width: 670px;
+}
+
+.blogSingleNewsFasterImage {
+    width: 670px;
+    height: 300px;
+    margin: 0;
+}

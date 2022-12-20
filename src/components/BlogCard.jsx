@@ -1,4 +1,5 @@
 import './BlogCard.css'
+import { Link } from 'react-router-dom'
 
 export default function BlogCard(props) {
     return (
@@ -12,7 +13,7 @@ export default function BlogCard(props) {
                     <p className='heading-3'>Top Trends From Spring</p>
                     <p className='blogCardText heading-5'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.  faucibus augue, a maximus elit ex vitae libero... </p>
                 </div>
-                <p className='body-large' style={{color: "#A18A68"}}>Read More</p>
+                <Link className='link body-large' style={{color: "#A18A68", width: "83px"}} to={"/blogSingle"}>Read More</Link>
             </div>
         </div>
     )
