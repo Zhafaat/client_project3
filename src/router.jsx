@@ -47,10 +47,6 @@ const router = createBrowserRouter([
             ]
         },
         {
-            path:'/blog',
-            element: <Blog></Blog>
-        },
-        {
           path: '/myAccount',
           element: <MyAccount />,
           children: [
@@ -71,6 +67,10 @@ const router = createBrowserRouter([
         {
           path: "/resetPassword",
           element: <ResetPassword />
+        },
+        {
+          path: "/blog",
+          element: <Blog></Blog>
         }
       ]
     }

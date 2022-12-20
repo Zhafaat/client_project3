@@ -1,0 +1,12 @@
+.blogPagesbar {
+    box-sizing: border-box;
+    width: 40px;
+    height: 40px;
+    border: 1px solid;
+    border-color:black;
+    border-radius: 4px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
