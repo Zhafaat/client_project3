@@ -1,3 +1,6 @@
 .blogSingle {
     margin-top: 96px;
+    margin-bottom: 253px;
+    display: flex;
+    flex-direction: column;
 }
