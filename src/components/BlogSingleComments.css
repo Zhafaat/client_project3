@@ -1,0 +1,31 @@
+.blogSingleComments {
+    height: 480px;
+    width: 670px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: center;
+}
+
+.blogSingleComments-body {
+    height: 403px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.blogSingleComments-nestedComments-container {
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom: 1px solid #D8D8D8;
+    padding-bottom: 39px;
+}
+
+.blogSingleComments-nestedComments {
+    height: 231px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
