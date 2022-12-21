@@ -14,6 +14,7 @@ import SignIn from "./routes/SignIn"
 import Register from "./routes/Register"
 import Contact from "./routes/Contact"
 import ResetPassword from "./routes/ResetPassword"
+import BlogSingle from "./routes/BlogSingle"
 
 const router = createBrowserRouter([
     {
@@ -71,6 +72,10 @@ const router = createBrowserRouter([
         {
           path: "/blog",
           element: <Blog></Blog>
+        },
+        {
+          path: "/blogSingle",
+          element: <BlogSingle></BlogSingle>
         }
       ]
     }

@@ -1,0 +1,92 @@
+.blogSingleTopTrends {
+    height: 428px;
+    width: 670px;
+    /* margin-inline: auto; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: center;
+}
+
+.blogSingleTopTrends-top {
+    height: 266px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.blogSingleTopTrends-content {
+    height: 208px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.blogSingleTopTrends-content > ul {
+    height: 138px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+.blogSingleTopTrends-bottom {
+    height: 72px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.blogSingleTopTrends-tagsShare {
+    width: 670px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blogSingleTopTrends-tags-container {
+    width: 276px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blogSingleTopTrendsTagsLine {
+    width: 64px;
+    border-color: black;
+}
+
+.blogSingleTopTrends-share-container {
+    width: 218px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blogSingleTopTrendsShareLine {
+    width: 64px;
+    border-color: black
+}
+
+.blogSingleTopTrends-share-sosmed {
+    width: 96px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blogSingleTopTrendsFb {
+    width: 10px;
+    height: 18px;
+    margin: 0;
+}
+
+.blogSingleTopTrendsIg {
+    width: 18px;
+    height: 18px;
+    margin: 0;
+}
+
+.blogSingleTopTrendsTwitter {
+    width: 20px;
+    height: 17px;
+    margin: 0;
+}

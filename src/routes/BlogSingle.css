@@ -1,0 +1,8 @@
+.blogSingle {
+    margin-top: 96px;
+    margin-bottom: 253px;
+    height: 3107px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

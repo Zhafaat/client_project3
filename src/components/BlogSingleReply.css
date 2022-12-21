@@ -1,0 +1,82 @@
+.blogSingleReply {
+    height: 669px;
+    width: 670px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: center;
+}
+
+.blogSingleReply-head {
+    height: 72px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.blogSingleReply-form {
+    height: 523px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.blogSingleReply-form-input {
+    height: 406px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.blogSingleReply-userInformation {
+   height: 251px; 
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.blogSingleReply-userInformation-input {
+    height: 205px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.blogSingleReply-userInformatin-container {
+    width: 670px;
+    padding-bottom: 13px;
+    border-bottom: 1px solid #D8D8D8;
+}
+
+.blogSingleReplyInput {
+    border: none;
+    background-color: transparent;
+    color: #707070;
+}
+
+.blogSingleReply-checkbox-container {
+    display: flex;
+    align-items: center;
+}
+
+.blogSingleReplyCheckbox {
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+}
+
+.blogSingleReply-input-comment {
+    width: 670px;
+    padding-bottom: 61px;
+    border-bottom: 1px solid #D8D8D8;
+}
+
+.blogSingleReplyButton {
+    box-sizing: border-box;
+    width: 197px;
+    height: 53px;
+    background: #000000;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    color: white;
+}

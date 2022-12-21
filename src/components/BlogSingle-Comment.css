@@ -1,0 +1,55 @@
+.blogSingleComment {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.blogSingleCommentImage {
+    width: 70px;
+    height: 70px;
+    margin-right: 24px;
+}
+
+.blogSingleComment-container {
+    height: 92px;
+    width: 576px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.blogSingleComment-user-container {
+    /* width: 576px; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.blogSingleComment-nameDate {
+    width: 233px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.blogSingleComment-reply {
+    width: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+}
+
+.blogSingleCommentArrow {
+    width: 16px;
+    height: 14px;
+    margin: 0;
+}
+
+.blogSingleComment-reply > p {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 27px;
+    color: #707070;
+    margin: 0;
+
+}
