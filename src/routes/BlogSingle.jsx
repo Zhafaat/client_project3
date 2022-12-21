@@ -2,6 +2,7 @@ import './BlogSingle.css'
 
 import BlogSingleNews from "../components/BlogSingleNews";
 import BlogSingleTopTrends from '../components/BlogSingleTopTrends';
+import BlogSingleReply from '../components/BlogSingleReply';
 
 
 export default function BlogSingle() {
@@ -9,6 +10,7 @@ export default function BlogSingle() {
         <div className="blogSingle">
             <BlogSingleNews></BlogSingleNews>
             <BlogSingleTopTrends></BlogSingleTopTrends>
+            <BlogSingleReply></BlogSingleReply>
         </div>
     )
 }
