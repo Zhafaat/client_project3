@@ -16,7 +16,7 @@ function Footer() {
                           <Link className='link-footer heading-5'>TERMS OF SERVICES</Link>
                           <Link className='link-footer heading-5'>SHIPPING AND RETURNS</Link>
                     </div>
-                    <p className='heading-5'>© 2021 Shelly. <Link className='link-footer'>Terms of use</Link> and <Link className='link-footer'>privacy policy</Link>.</p>
+                    <p className='heading-5'>© 2021 Shelly. <Link className='link-footer'>Terms of use</Link> and <Link className='link-footer' to={"/privacy"}>privacy policy</Link>.</p>
                 </div>
                 <div className="bottom-right">
                     <div className="bottom-right-top">

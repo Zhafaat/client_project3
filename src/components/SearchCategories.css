@@ -1,0 +1,20 @@
+.searchCategories {
+    height: 283px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.searchCategories-categories {
+    height: 186px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.searchCategories-categories-container {
+    height: 138px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
