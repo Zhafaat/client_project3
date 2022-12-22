@@ -15,6 +15,8 @@ import Register from "./routes/Register"
 import Contact from "./routes/Contact"
 import ResetPassword from "./routes/ResetPassword"
 import BlogSingle from "./routes/BlogSingle"
+import BlogSingleStandard from "./routes/blogSingleStandard"
+import Privacy from "./routes/Privacy"
 
 const router = createBrowserRouter([
     {
@@ -76,6 +78,18 @@ const router = createBrowserRouter([
         {
           path: "/blogSingle",
           element: <BlogSingle></BlogSingle>
+        },
+        {
+          path: "/blogSingleStandard",
+          element: <BlogSingleStandard></BlogSingleStandard>
+        },
+        {
+          path: "/privacy",
+          element: <Privacy></Privacy>
+        },
+        {
+          path: "/about",
+          
         }
       ]
     }

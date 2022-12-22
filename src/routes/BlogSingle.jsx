@@ -6,10 +6,10 @@ import BlogSingleReply from '../components/BlogSingleReply';
 import BlogSingleComments from '../components/BlogSingleComments';
 
 
-export default function BlogSingle() {
+export default function BlogSingle(props) {
     return (
-        <div className="blogSingle">
-            <BlogSingleNews></BlogSingleNews>
+        <div className="blogSingle" style={{marginTop: props.marginTop}}>
+            <BlogSingleNews width={props.width}></BlogSingleNews>
             <BlogSingleTopTrends></BlogSingleTopTrends>
             <BlogSingleReply></BlogSingleReply>
             <BlogSingleComments></BlogSingleComments>

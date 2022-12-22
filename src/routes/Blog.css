@@ -13,27 +13,6 @@
     justify-content: space-between;
 }
 
-.blog-body-left {
-    height: 283px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.blog-body-categories {
-    height: 186px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.blog-body-categories-container {
-    height: 138px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
 .blog-body-right {
     height: 1144px;
     display: flex;
