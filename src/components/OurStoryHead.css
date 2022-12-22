@@ -1,0 +1,15 @@
+.ourStoryHead {
+    height: 250px;
+    width: 670px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ourStoryHead-title {
+    height: 93px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}

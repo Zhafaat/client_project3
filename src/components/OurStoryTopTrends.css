@@ -1,0 +1,26 @@
+.ourStoryTopTrends {
+    height: 557px;
+    width: 670px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ourStoryTopTrends-top {
+    height: 358px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ourStoryTopTrendsImage {
+    width: 670px;
+    height: 300px;
+}
+
+.ourStoryTopTrends-bottom {
+    height: 151px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

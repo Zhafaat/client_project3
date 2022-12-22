@@ -17,6 +17,8 @@ import ResetPassword from "./routes/ResetPassword"
 import BlogSingle from "./routes/BlogSingle"
 import BlogSingleStandard from "./routes/blogSingleStandard"
 import Privacy from "./routes/Privacy"
+import OurStory from "./routes/OurStory"
+import Error from "./routes/error"
 
 const router = createBrowserRouter([
     {
@@ -88,8 +90,12 @@ const router = createBrowserRouter([
           element: <Privacy></Privacy>
         },
         {
-          path: "/about",
-          
+          path: "/ourStory",
+          element: <OurStory></OurStory>
+        },
+        {
+          path: "/error",
+          element: <Error></Error>
         }
       ]
     }

@@ -1,0 +1,9 @@
+.ourStory {
+    margin-top: 96px;
+    margin-bottom: 253px;
+    height: 1425px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}

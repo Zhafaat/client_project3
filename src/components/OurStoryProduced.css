@@ -1,0 +1,19 @@
+.ourStoryProduced {
+    height: 512px;
+    width: 670px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ourStoryProduced-body {
+    height: 454px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ourStoryProducedImage {
+    width: 670px;
+    height: 300px;
+}
