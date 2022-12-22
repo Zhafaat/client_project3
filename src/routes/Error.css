@@ -1,0 +1,34 @@
+.error {
+    height: 247px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 255px;
+    margin-bottom: 253px;
+}
+
+.error-content {
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.error-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.errorButton {
+    box-sizing: border-box;
+    width: 187px;
+    height: 53px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    margin: 0;
+}

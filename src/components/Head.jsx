@@ -12,7 +12,7 @@ function Head() {
                 <div className="navbar-left">
                     <Link className="link heading-5" to={'/shop'}>Shop</Link>
                     <Link className="link heading-5" to={'/blog'}>Blog</Link>
-                    <Link className="link heading-5" >Our Story</Link>
+                    <Link className="link heading-5" to={'/ourStory'}>Our Story</Link>
                 </div>
                 <div className="navbar-right">
                     <Link to={"/blogSingleStandard"}><img className="search" src={search} alt="search" /></Link>
