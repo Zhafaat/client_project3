@@ -15,9 +15,9 @@ function Head() {
                     <Link className="link heading-5" to={'/ourStory'}>Our Story</Link>
                 </div>
                 <div className="navbar-right">
-                    <Link to={"/blogSingleStandard"}><img className="search" src={search} alt="search" /></Link>
-                    <Link><img className="cart" src={cart} alt="cart" /></Link>
-                    <Link to={"/myAccount"}><img className="account" src={account} alt="account" /></Link>
+                    <Link to={"/blogSingleStandard"}><img className="head-search" src={search} alt="search" /></Link>
+                    <Link><img className="head-cart" src={cart} alt="cart" /></Link>
+                    <Link to={"/myAccount"}><img className="head-account" src={account} alt="account" /></Link>
 
                 </div>
             </div>

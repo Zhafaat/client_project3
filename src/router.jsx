@@ -19,6 +19,8 @@ import BlogSingleStandard from "./routes/blogSingleStandard"
 import Privacy from "./routes/Privacy"
 import OurStory from "./routes/OurStory"
 import Error from "./routes/error"
+import Account from "./routes/account"
+import AccountDashboard from "./routes/AccountDashboard"
 
 const router = createBrowserRouter([
     {
@@ -64,6 +66,17 @@ const router = createBrowserRouter([
               element: <Register />
             }
           ]
+        },
+        {
+          path: "/account",
+          element: <Account></Account>,
+          children: [
+            {
+              path: "/account/dashboard",
+              element: <AccountDashboard></AccountDashboard>
+            }
+          ]
+
         },
         {
           path: "/contact",
