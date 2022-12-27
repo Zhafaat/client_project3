@@ -1,0 +1,48 @@
+.accountAddressesForm {
+    margin-bottom: 24px;
+}
+
+.accountAddresses-form {
+    height: 688px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.accountAddresses-form-input {
+    height: 571px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.accountAddresses-input-name {
+    width: 580px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.accountAddresses-form-input input {
+    width: 580px;
+    border: none;
+    border-bottom: 1px solid #D8D8D8;
+    padding: 0;
+    padding-bottom: 12px;
+    color: #707070;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+
+}
+
+.accountAddresseSubmit {
+    box-sizing: border-box;
+    width: 244px;
+    height: 53px;
+    background: #000000;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    color: white;
+}
