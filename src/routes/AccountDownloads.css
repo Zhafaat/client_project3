@@ -1,0 +1,23 @@
+.accountDownloads {
+    position: relative;
+}
+
+.accountDownloadsTable {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  .accountDownloadsTable th {
+    width: 21.5%;
+    border-bottom: 1px solid #000000;
+    text-align: left;
+    padding-bottom: 16px;
+  }
+
+  .accountDownloadsTable td {
+    border-bottom: 1px solid #D8D8D8;
+    /* text-align: left; */
+    padding-top: 24px;
+    padding-bottom: 24px;
+    color: #707070;
+  }

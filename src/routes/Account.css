@@ -1,0 +1,35 @@
+.account {
+    display: flex;
+    flex-direction: column;
+    margin: 96px 0 253px 0;
+}
+
+.account-head-container {
+    height: 167px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 39px;
+}
+
+.account-head {
+    height: 133px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.accountTitle {
+    align-self: center;
+}
+
+.account-navbar {
+    width: 825px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.accountLine {
+    border-color: #D8D8D8;
+    margin: 0;
+}

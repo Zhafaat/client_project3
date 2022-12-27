@@ -46,19 +46,19 @@
     color: #000000;
 }
 
-.search {
+.head-search {
     width: 19px;
     height: 19px;
     margin: 0;
 }
 
-.cart {
+.head-cart {
     width: 21px;
     height: 21px;
     margin: 0;
 }
 
-.account {
+.head-account {
     width: 20px;
     height: 20px;
     margin: 0;

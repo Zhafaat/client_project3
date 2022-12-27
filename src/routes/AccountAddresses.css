@@ -1,0 +1,40 @@
+.accountAddresses-body {
+    display: flex;
+    width: 100%;
+}
+
+.accountAddresses-body-left {
+    width: 50%;
+}
+
+.accountAddressesTitle {
+    margin-bottom: 24px;
+}
+
+.accountAddresses-body-left-container {
+    height: 57px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.accountAddresses-body-right {
+    margin-top: 13px;
+    width: 50%;
+}
+
+.accountAddresses-body-right-container {
+    height: 57px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.accountAddressesButton {
+    width: 34px;
+    border: none;
+    padding: 0;
+    color: #A18A68;
+    background-color: transparent;
+
+}

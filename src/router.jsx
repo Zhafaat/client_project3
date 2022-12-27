@@ -19,6 +19,12 @@ import BlogSingleStandard from "./routes/blogSingleStandard"
 import Privacy from "./routes/Privacy"
 import OurStory from "./routes/OurStory"
 import Error from "./routes/error"
+import Account from "./routes/account"
+import AccountDashboard from "./routes/AccountDashboard"
+import AccountOrders from "./routes/AccountOrders"
+import AccountDownloads from "./routes/AccountDownloads"
+import AccountAddresses from "./routes/AccountAddresses"
+import AccountDetails from "./routes/AccountDetails"
 
 const router = createBrowserRouter([
     {
@@ -26,7 +32,7 @@ const router = createBrowserRouter([
       element:<App />,
       children : [
         {
-            path: "/",
+            path: "/home",
             element: <Home></Home>
         },
         {
@@ -52,18 +58,45 @@ const router = createBrowserRouter([
             ]
         },
         {
-          path: '/myAccount',
+          path: '/',
           element: <MyAccount />,
           children: [
             {
-              path: "/myAccount",
+              path: "/",
               element: <SignIn />
             },
             {
-              path: "/myAccount/register",
+              path: "/register",
               element: <Register />
             }
           ]
+        },
+        {
+          path: "/account",
+          element: <Account></Account>,
+          children: [
+            {
+              path: "/account/dashboard",
+              element: <AccountDashboard></AccountDashboard>
+            },
+            {
+              path: "/account/orders",
+              element: <AccountOrders></AccountOrders>
+            },
+            {
+              path: "/account/downloads",
+              element: <AccountDownloads></AccountDownloads>
+            },
+            {
+              path: "/account/addresses",
+              element: <AccountAddresses></AccountAddresses>
+            },
+            {
+              path: "/account/details",
+              element: <AccountDetails></AccountDetails>
+            }
+          ]
+
         },
         {
           path: "/contact",
