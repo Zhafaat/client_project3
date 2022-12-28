@@ -21,14 +21,14 @@ export default function AccountOrders() {
                     <td>October 8,2021</td>
                     <td>Delivered</td>
                     <td>$ 105</td>
-                    <td><Link className='link' style={{color: "#A18A68"}}>View Order</Link></td>
+                    <td><Link to={"/viewOrder"} className='link' style={{color: "#A18A68"}}>View Order</Link></td>
                 </tr>
                 <tr>
                     <td>7643980998990</td>
                     <td>October 8,2021</td>
                     <td>Delivered</td>
                     <td>$ 105</td>
-                    <td><Link className='link' style={{color: "#A18A68"}}>View Order</Link></td>
+                    <td><Link to={"/viewOrder"} className='link' style={{color: "#A18A68"}}>View Order</Link></td>
 
                 </tr>
                 <tr>
@@ -36,7 +36,7 @@ export default function AccountOrders() {
                     <td>October 8,2021</td>
                     <td>Delivered</td>
                     <td>$ 105</td>
-                    <td><Link className='link' style={{color: "#A18A68"}}>View Order</Link></td>
+                    <td><Link to={"/viewOrder"} className='link' style={{color: "#A18A68"}}>View Order</Link></td>
 
                 </tr>
                 </tbody>

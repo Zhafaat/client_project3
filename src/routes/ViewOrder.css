@@ -1,0 +1,76 @@
+.viewOrder {
+    width: 1248px;
+    display: flex;
+    justify-content: space-between;
+    margin: 96px 0 253px 0;
+}
+
+.viewOrder-orderDetails{
+    height: 421px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.viewOrder-orderDetails-container {
+    width: 502px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.viewOrder-orderDetails-left {
+    height: 357px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.orderDetails-left-container {
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.viewOrder-orderDetails-right {
+    height: 338px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.orderDetails-left-delivery {
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.viewOrder-orderSummary {
+    height: 505px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.viewOrder-orderSummary-container {
+    width: 580px;
+    height: 441px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EFEFEF;
+}
+
+.viewOrder-orderSummary-list {
+    height: 363px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.viewOrder-orderSummary-item {
+    width: 462px;
+    display: flex;
+    justify-content: space-between;
+}
