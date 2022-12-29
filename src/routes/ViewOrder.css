@@ -1,8 +1,12 @@
 .viewOrder {
+ margin: 96px 0 253px 0;
+}
+
+.viewOrder-container {
     width: 1248px;
     display: flex;
     justify-content: space-between;
-    margin: 96px 0 253px 0;
+    margin-top: 96px;
 }
 
 .viewOrder-orderDetails{
