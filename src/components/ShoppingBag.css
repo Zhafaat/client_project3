@@ -1,0 +1,55 @@
+.shoppingBag {
+    box-sizing: border-box;
+    position: absolute;
+    width: 360px;
+    height: 945px;
+    top: -64px;
+    right: 0px;
+    background: #FFFFFF;
+    border: 1px solid #D8D8D8;
+    padding: 72px 0 27px 0;
+    z-index: 2;
+}
+
+.shoppingBag-head {
+    height: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    margin-left: 36px;
+
+}
+
+.shoppingBag-body {
+    margin-left: 36px;
+}
+
+.shoppingBagLine {
+    border-color: #D8D8D8;
+    margin-top: 15px;
+    margin-bottom: 21px;
+}
+
+.shoppingBag-footer {
+    height: 101px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 36px;
+}
+
+.shoppingBag-footer-subtotal {
+    width: 288px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.shoppingBagButton {
+    box-sizing: border-box;
+    width: 288px;
+    height: 53px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 4px;
+}

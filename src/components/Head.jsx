@@ -16,7 +16,7 @@ function Head() {
                 </div>
                 <div className="navbar-right">
                     <Link to={"/blogSingleStandard"}><img className="head-search" src={search} alt="search" /></Link>
-                    <Link><img className="head-cart" src={cart} alt="cart" /></Link>
+                    <Link to={"/cart"}><img className="head-cart" src={cart} alt="cart" /></Link>
                     <Link to={"/account/dashboard"}><img className="head-account" src={account} alt="account" /></Link>
 
                 </div>

@@ -25,6 +25,8 @@ import AccountOrders from "./routes/AccountOrders"
 import AccountDownloads from "./routes/AccountDownloads"
 import AccountAddresses from "./routes/AccountAddresses"
 import AccountDetails from "./routes/AccountDetails"
+import ViewOrder from "./routes/ViewOrder"
+import Cart from "./routes/Cart"
 
 const router = createBrowserRouter([
     {
@@ -129,6 +131,14 @@ const router = createBrowserRouter([
         {
           path: "/error",
           element: <Error></Error>
+        },
+        {
+          path: "/viewOrder",
+          element: <ViewOrder></ViewOrder>
+        },
+        {
+          path: "/cart",
+          element: <Cart></Cart>
         }
       ]
     }

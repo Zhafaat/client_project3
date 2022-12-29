@@ -1,0 +1,43 @@
+.shoppingBagItem {
+    width: 288px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.shoppingBagItemImage {
+    width: 136px;
+    height: 136px;
+    margin: 0;
+}
+
+.shoppingBagItem-info {
+    height: 136px;
+    width: 144px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+
+.shoppingBagItemCross {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+    padding: 0;
+    background-color: transparent;
+}
+
+.shoppingbagItem-inputQuantity {
+    width: 36px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.shoppingBagItem-QTY-container {
+    width: 69px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
