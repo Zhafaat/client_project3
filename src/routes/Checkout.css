@@ -1,0 +1,143 @@
+.checkout {
+    height: 1336px;
+    margin-top: 96px;
+    margin-bottom: 253px;
+}
+
+.checkout-head {
+    height: 378px;
+    /* align-items: center; */
+}
+
+.checkout-head-content {
+    height: 271px;
+}
+
+.checkout-head-text {
+    height: 66px;
+}
+
+.checkout-head-coupon {
+    box-sizing: border-box;
+
+    width: 580px;
+    height: 181px;
+    border: 1px solid #D8D8D8;
+    padding: 24px 0 40px 24px;
+}
+
+.checkout-body {
+    width: 1248px;
+}
+
+.checkout-billingDetails {
+    height: 817px;
+}
+
+.checkout-billingDetails-form {
+    height: 755px;
+}
+
+.checkout-billingDetails-form > input {
+    border: none;
+    border-bottom: 1px solid #D8D8D8;
+    padding: 0;
+    padding-bottom: 12px;
+    margin: 0;
+    width: 580px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #707070;
+
+}
+
+.checkout-formName-container {
+    width: 580px;
+}
+
+.checkout-formName-container > input {
+    border: none;
+    border-bottom: 1px solid #D8D8D8;
+    padding: 0;
+    padding-bottom: 12px;
+    margin: 0;
+    width: 270px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #707070;
+}
+
+.checkout-formCheckbox-container {
+    height: 72px;
+}
+
+.checkout-formCheckbox-container div {
+    display: flex;
+    align-items: center;
+}
+
+.checkout-formCheckbox-container input {
+    box-sizing: border-box;
+    width: 16px;
+    height: 15.92px;
+    border: 1px solid #707070;
+    border-radius: 2px;
+    margin: 0;
+    margin-right: 8px;
+}
+
+.checkout-yourOrder {
+    height: 910px;
+}
+
+.checkout-yourOrder-container {
+    width: 580px;
+    height: 846px;
+    background: #EFEFEF;
+    align-items: center;
+    padding: 39px 0 48px 0;
+}
+
+.checkout-yourOrder-input {
+    height: 661px;
+    width: 462px;
+}
+
+.checkout-yourOrder-inputRadio-container {
+    height: 237px;
+}
+
+.yourOrder-inputRadio-directBank {
+    height: 99px;
+}
+
+.checkout-yourOrder-inputRadio-container div {
+    display: flex;
+    align-items: center;
+}
+
+.checkout-yourOrder-inputRadio-container input {
+    width: 16px;
+    height: 16px;
+    background-color: #EFEFEF;
+    margin: 0;
+    margin-right: 13px;
+}
+
+.checkoutYourOrderButton {
+    box-sizing: border-box;
+    width: 462px;
+    height: 53px;
+    background: #000000;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    color: white
+}

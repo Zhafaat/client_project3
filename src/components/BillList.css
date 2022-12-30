@@ -1,0 +1,12 @@
+.viewOrder-orderSummary-list {
+    height: 363px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.viewOrder-orderSummary-item {
+    width: 462px;
+    display: flex;
+    justify-content: space-between;
+}
