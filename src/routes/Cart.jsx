@@ -2,6 +2,7 @@ import './Cart.css'
 
 import cross from '../assets/cross.svg'
 import item from '../assets/shoppingbag01.svg'
+import Coupon from '../components/Coupon'
 
 
 export default function Cart() {
@@ -83,10 +84,7 @@ export default function Cart() {
                         <CartItem></CartItem>
                         <button className='cartUpdateButton body-large'>UPDATE CART</button>
                     </div>
-                    <div className="cart-applyCoupon-container">
-                        <input className='cartCouponCode body-small' type="text" placeholder='Coupon Code'/>
-                        <button className='cartCouponButton body-large'>APPLY COUPON</button>
-                    </div>
+                    <Coupon></Coupon>
                 </div>
                 <div className="cart-body-right">
                     <CartTotals></CartTotals>

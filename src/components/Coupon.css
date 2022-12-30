@@ -1,0 +1,23 @@
+.cart-applyCoupon-container {
+    width: 580px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cartCouponCode {
+    width: 336px;
+    border: none;
+    border-bottom: 1px solid #D8D8D8 ;
+    padding: 0;
+    padding-bottom: 21px;
+}
+
+.cartCouponButton {
+    box-sizing: border-box;
+    width: 168px;
+    height: 53px;
+    background: #000000;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    color: white;
+}

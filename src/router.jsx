@@ -27,6 +27,7 @@ import AccountAddresses from "./routes/AccountAddresses"
 import AccountDetails from "./routes/AccountDetails"
 import ViewOrder from "./routes/ViewOrder"
 import Cart from "./routes/Cart"
+import Checkout from "./routes/Checkout"
 
 const router = createBrowserRouter([
     {
@@ -139,6 +140,10 @@ const router = createBrowserRouter([
         {
           path: "/cart",
           element: <Cart></Cart>
+        },
+        {
+          path: "/checkout",
+          element: <Checkout></Checkout>
         }
       ]
     }
