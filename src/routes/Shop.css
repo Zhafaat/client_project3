@@ -1,7 +1,6 @@
 .shop {
     /* background-color: blue !important; */
     max-width: 1248px;
-    height: 937px;
     margin-top: 96px;
     margin-bottom: 249px;
 }
@@ -20,20 +19,25 @@
 
 .main-contain {
     display: flex;
+    justify-content: space-between;
     margin-top: 39px;
     /* background-color: red; */
     width: 100%;
-    height: 100%;
 }
 
 .search-bar {
     /* background-color: yellow; */
-    width: 30%;
+    width: 261px;
 }
 
 .card-container {
-    background-color: bisque;
-    width: 70%;
+    /* background-color: bisque; */
+    width: 948px;
+    /* height: 845px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
 }
 
 .search-bar-container{

@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom'
 
 export default function ProductCard(props) {
     return (
-        <div className="productCard" style={{height: props.heightCard}}>
+        <div className="productCard" style={{height: props.heightCard, marginBottom: props.marginBottom}}>
             <div className="product-image-container">
                 <img className='product-image' style={{width: props.widthImage, height: props.heightImage}} src={props.image} alt="earrings" />
                 <div className="product-image-navbar">

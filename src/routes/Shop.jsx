@@ -3,6 +3,9 @@ import './Shop.css'
 import SearchComponent from '../components/SearchComponent'
 import SelectComponent from '../components/SelectComponent'
 import {useState} from 'react'
+import ProductCard from '../components/ProductCard'
+import product from '../assets/product.svg'
+
 
 
 
@@ -76,7 +79,12 @@ function Shop() {
                 </div>
 
                 <div className="card-container">
-                    <p>Card</p>
+                    <ProductCard heightCard="383px" widthImage="300px" heightImage="300px" image={product} marginBottom="70px"></ProductCard>
+                    <ProductCard heightCard="383px" widthImage="300px" heightImage="300px" image={product} marginBottom="70px"></ProductCard>
+                    <ProductCard heightCard="383px" widthImage="300px" heightImage="300px" image={product} marginBottom="70px"></ProductCard>
+                    <ProductCard heightCard="383px" widthImage="300px" heightImage="300px" image={product} marginBottom="70px"></ProductCard>
+                    <ProductCard heightCard="383px" widthImage="300px" heightImage="300px" image={product} marginBottom="70px"></ProductCard>
+                    <ProductCard heightCard="383px" widthImage="300px" heightImage="300px" image={product} marginBottom="70px"></ProductCard>
                 </div>
             </div>
           
