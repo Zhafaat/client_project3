@@ -18,7 +18,7 @@ function Home() {
         fetchData()
     }, [])
 
-    console.log(Product)
+    // console.log(Product)
 
     if(Product){
         return (
