@@ -18,8 +18,8 @@ export default function ProductCard(props) {
                 <button className='product-button body-large' style={{width: props.widthImage}}>ADD TO CART</button>
             </div>
             <div className="product-content">
-                <p className='heading-3'>Lira Earrings</p>
-                <p className='product-content-price heading-4'>$ 20,00</p>
+                <p className='heading-3'>{props.name}</p>
+                <p className='product-content-price heading-4'>$ {props.price}</p>
             </div>
         </div>
     )
