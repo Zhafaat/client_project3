@@ -80,11 +80,6 @@ function Shop() {
 
                 <div className="card-container">
                     <ProductCard heightCard="383px" widthImage="300px" heightImage="300px" image={product} marginBottom="70px"></ProductCard>
-                    <ProductCard heightCard="383px" widthImage="300px" heightImage="300px" image={product} marginBottom="70px"></ProductCard>
-                    <ProductCard heightCard="383px" widthImage="300px" heightImage="300px" image={product} marginBottom="70px"></ProductCard>
-                    <ProductCard heightCard="383px" widthImage="300px" heightImage="300px" image={product} marginBottom="70px"></ProductCard>
-                    <ProductCard heightCard="383px" widthImage="300px" heightImage="300px" image={product} marginBottom="70px"></ProductCard>
-                    <ProductCard heightCard="383px" widthImage="300px" heightImage="300px" image={product} marginBottom="70px"></ProductCard>
                 </div>
             </div>
           
