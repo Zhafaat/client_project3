@@ -23,7 +23,7 @@ export default function Reviews() {
     }, [])
 
     if(Product){
-        console.log(Product[0])
+        // console.log(Product[0])
         return (
             <div className="reviews">
                 <div className="reviews-list">

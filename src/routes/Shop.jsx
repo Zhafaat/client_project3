@@ -30,7 +30,7 @@ function Shop() {
         fetchData()
     }, [])
 
-    console.log(Product)
+    // console.log(Product)
 
     if (Product){
         return (

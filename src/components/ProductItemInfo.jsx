@@ -95,7 +95,7 @@ export default function ProductItemInfo() {
                     <div className="productItemInfo-navbar">
                         <Link className='link heading-3' to={`/product/${productId}`}>Description</Link>
                         <Link className='link heading-3' to={`/product/${productId}/aditionalInformation`}>Aditional information</Link>
-                        <Link className='link heading-3' to={`/product/${productId}/reviews`}>Reviews(0)</Link>
+                        <Link className='link heading-3' to={`/product/${productId}/reviews`}>Reviews({Product[0].reviews.length})</Link>
                     </div>
                     <Outlet />
                 </div>
