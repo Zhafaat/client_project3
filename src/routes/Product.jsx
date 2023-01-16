@@ -5,6 +5,7 @@ import ProductItemInfo from "../components/ProductItemInfo"
 import ProductSimilarItems from '../components/ProductSimilarItems'
 
 export default function Product() {
+
     return (
         <div className="product">
             <ProductItemAdded />

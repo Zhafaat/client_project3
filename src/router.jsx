@@ -43,19 +43,19 @@ const router = createBrowserRouter([
             element: <Shop />
         }, 
         {
-            path: "/product",
+            path: "/product/:productId",
             element: <Product />,
             children: [
               {
-                path: "/product",
+                path: "/product/:productId",
                 element: <Description />
               },
               {
-                path: "/product/aditionalInformation",
+                path: "/product/:productId/aditionalInformation",
                 element: <AditionalInformation />
               },
               {
-                path: "/product/reviews",
+                path: "/product/:productId/reviews",
                 element: <Reviews />
               }
             ]

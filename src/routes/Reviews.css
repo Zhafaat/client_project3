@@ -6,18 +6,18 @@
 }
 
 .reviews-list {
-    height: 465px;
+    /* height: 465px; */
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 
 }
 
 .reviews-list-container {
-    height: 363px;
+    /* height: 363px; */
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 
 }
 
