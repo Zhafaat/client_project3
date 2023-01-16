@@ -33,7 +33,8 @@ export default function HomeBottom() {
                     {
                         Product.map(product => {
                             return(
-                                <ProductCard image={product.imageURL} name={product.name} price={product.price} heightCard="472px" widthImage="380px" heightImage="380px" marginBottom="70px" key={product.id}/>
+                                <ProductCard image={product.imageURL} name={product.name} price={product.price} heightCard="472px" widthImage="380px" heightImage="380px" marginBottom="70px"
+                                id={product.id} key={product.id}/>
                             )
                         })
                     }

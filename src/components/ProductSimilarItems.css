@@ -1,12 +1,14 @@
 .productSimilarItems {
-    height: 554px;
+    /* height: 554px; */
+    width: 1248px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 
 .similarItems-container {
     width: 1248px;
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }

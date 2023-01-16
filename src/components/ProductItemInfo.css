@@ -23,12 +23,15 @@
     width: 120px;
     height: 120px;
     margin: 0;
+    border-radius: 8px;
 }
 
 .productItemInfo-image {
     width: 540px;
     height: 600px;
     margin: 0;
+    border-radius: 8px;
+
 }
 
 .productItemInfo-detail {

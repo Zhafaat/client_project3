@@ -1,7 +1,34 @@
+import axios from "axios";
+import { useEffect, useState } from "react";
+import { useParams } from "react-router-dom"
+
 export default function Description() {
-    return (
-        <div className="description">
-            <p className="heading-5" style={{color: '#707070'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam placerat, augue a volutpat hendrerit, sapien tortor faucibus augue, a maximus elit ex vitae libero. Sed quis mauris eget arcu facilisis consequat sed eu felis. Nunc sed porta augue. Morbi porta tempor odio, in molestie diam bibendum sed.</p>
-        </div>
-    )
+
+    let {productId} = useParams();
+
+    const [Product, setProduct] = useState()
+
+    useEffect(() => {
+        async function fetchData() {
+            const request = await axios.get(`http://localhost:3000/product/${productId}`)
+            setProduct(request.data)
+        }
+
+        fetchData()
+    }, [])
+
+    // console.log(Product)
+
+    if(Product) {
+        return (
+            <div className="description">
+                <p className="heading-5" style={{color: '#707070'}}>{Product[0].description}</p>
+            </div>
+        )
+
+    } else {
+        return(
+            <h1>Loading</h1>
+        )
+    }
 }
