@@ -6,6 +6,9 @@ import Coupon from '../components/Coupon'
 
 
 export default function Cart() {
+
+    
+
     function CartItem() {
         return(
             <div className="cartItem">
