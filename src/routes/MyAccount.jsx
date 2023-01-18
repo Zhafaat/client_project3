@@ -3,6 +3,8 @@ import './MyAccount.css'
 import { Outlet, Link } from "react-router-dom"
 
 export default function MyAccount() {
+
+    
     return (
         <div className="myAccount">
             <div className="myAccount-account">
