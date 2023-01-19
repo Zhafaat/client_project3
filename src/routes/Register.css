@@ -1,0 +1,31 @@
+.register {
+    margin-top: 126px;
+}
+.register-form-input{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.registerInput {
+    width: 500px;
+    color: #707070;
+    border: none;
+    border-bottom: 1px solid #D8D8D8;
+    background-color: transparent;
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+    resize: none;
+    outline: none;  
+
+}
+
+.registerButton {
+    box-sizing: border-box;
+    width: 500px;
+    height: 53px;
+    background: #000000;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    color: #FFFFFF;
+}

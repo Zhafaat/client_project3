@@ -68,7 +68,7 @@ export default function Checkout(){
                                 </div>
                                 <div>
                                     <input type="radio" name="yourOrderInputRadio" id="cashDelivery" />
-                                    <label htmlFor="cashDelivery"  vclassName='heading-5'>Cash on delivery</label>
+                                    <label htmlFor="cashDelivery"  className='heading-5'>Cash on delivery</label>
                                 </div>
                                 <div>
                                     <input type="radio" name="yourOrderInputRadio" id="paypal" />

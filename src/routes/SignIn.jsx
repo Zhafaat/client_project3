@@ -19,8 +19,11 @@ export default function SignIn() {
         console.log(body)
         try {
             const request = await axios.post('http://localhost:3000/account/login', body)
-            console.log('==== hello')
-            console.log(request.data.access_token)
+            // console.log('==== hello')
+            console.log(request.data)
+            // console.log(request.data.account_id)
+            // console.log(request.data.access_token)
+            localStorage.setItem('account_id', request.data.account_id)
             localStorage.setItem('access_token', request.data.access_token)
             navigate("/home")
         } catch (error) {
@@ -32,7 +35,7 @@ export default function SignIn() {
 
     return (
         <div className="signIn">
-            <form action="#" className="myAccount-form">
+            <form className="myAccount-form">
                 <div className="myAccount-form-input">
                     <div className="myAccount-form-input-container">
                         <div className="emailPassword-container">
